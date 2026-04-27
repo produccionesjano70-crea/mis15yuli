@@ -1724,3 +1724,13 @@ input[type="radio"] {
 .boton-descarga:hover {
     background-color: #0056b3;
 }
+
+/* Cambia todos los SVG/iconos a color bordo */
+.controles__img,
+.itinerario__icon,
+.whatsapp__icon,
+.copiar__icon,
+.album__icon,
+.info_icon {
+    filter: invert(18%) sepia(40%) saturate(800%) hue-rotate(300deg) brightness(80%);
+}
