@@ -23,12 +23,12 @@
 
 
     /* ------ colores body ----------- */
-    --color-body: #000000;
+    --color-body: #f9f4f2;
 
 
     /* ---------- color titulo musica ----------- */
 
-    --color-titulo-music: #202020;
+    --color-titulo-music: #6b2d3a;
 
     /* ---------- color menu hamburguesa ----------- */
 
@@ -36,20 +36,20 @@
 
     /* ------ Colores nav ----------- */
 
-    --color-nav: #1f1f1f;
+    --color-nav: #4a1825;
     --color-font-nav: #ffffff;
 
 
     /* ------ colores textos ----------- */
-    --color-titles: #ffffff;
-    --color-subtitles: #ffffff;
-    --color-parrafos: #ffffff;
-    --color-fuente-botones: #1a1a1a;
+    --color-titles: #6b2d3a;
+    --color-subtitles: #6b2d3a;
+    --color-parrafos: #6b2d3a;
+    --color-fuente-botones: #ffffff;
 
 
     /* ------ colores temporizador ----------- */
-    --color-numeros-temporizador: #000000;
-    --color-bordes-temporizador: #000000;
+    --color-numeros-temporizador: #4a1825;
+    --color-bordes-temporizador: #6b2d3a;
 
 
     /* ------ colores titulo fotos ----------- */
@@ -58,42 +58,42 @@
 
 
     /* ------ itinerario ----------- */
-    --color-fondo-tituloPrincipal: #151515;
+    --color-fondo-tituloPrincipal: #4a1825;
     --color-tituloPrincipal: #fff;
-    --fondo-itinerario: #b6b6b6;
-    --titulo-itinerario: #000000;
-    --hora-itinerario: #050505;
-    --fondo-barra-progreso: #676767;
-    --avance-barra-progreso: #0f0f0f;
+    --fondo-itinerario: #e8d5d9;
+    --titulo-itinerario: #4a1825;
+    --hora-itinerario: #6b2d3a;
+    --fondo-barra-progreso: #c8a0a8;
+    --avance-barra-progreso: #4a1825;
 
 
 
     /* ------ colores datos bancarios ----------- */
-    --color-Alias-BCbu-title: #000000;
-    --color-fondo-bancarios: #dfdfdf;
-    --font-titulo-bancarios: #000000;
-    --color-boton-bancarios: #1d1d1d;
+    --color-Alias-BCbu-title: #4a1825;
+    --color-fondo-bancarios: #f0e8ea;
+    --font-titulo-bancarios: #4a1825;
+    --color-boton-bancarios: #4a1825;
     --color-font-botones: #ffffff;
-    --color-font-bancarios: #000000;
+    --color-font-bancarios: #4a1825;
 
     /* ------ colores radio Confimacion ----------- */
-    --color-inputRadio-confirmacion: #000000;
+    --color-inputRadio-confirmacion: #4a1825;
 
     /* ------ Color footer frase ----------- */
-    --color-frase-final: #000000;
+    --color-frase-final: #4a1825;
 
     /* ------ colores pie de pagina ----------- */
-    --color-footer: #959595;
-    --color-info: #000000;
-    --color-letra-web: #c5c5c5;
+    --color-footer: #e8d5d9;
+    --color-info: #4a1825;
+    --color-letra-web: #f0e8ea;
 
 
 
     /* ------ colores botones y divs ----------- */
-    --color-botones:  linear-gradient(to bottom, rgba(184,184,184,1) 0%, rgba(219,219,219,1) 50%, rgba(186,186,186,1) 51%, rgba(189,189,189,1) 100%);
+    --color-botones: linear-gradient(to bottom, #7a2535 0%, #5a1a27 50%, #4a1520 51%, #4a1520 100%);
 
 
-    --color-divs: linear-gradient(90deg, rgba(18,18,18,1) 0%, rgba(18,18,18,1) 1%, rgba(70,70,70,1) 3%, rgba(18,18,18,0.7119047448080795) 12%, rgba(18,18,18,1) 34%, rgba(33,33,33,0.9499999829033176) 49%, rgba(18,18,18,1) 62%, rgba(18,18,18,0.7091036243599003) 82%, rgba(70,70,70,1) 96%, rgba(18,18,18,1) 99%, rgba(18,18,18,1) 100%);
+    --color-divs: linear-gradient(90deg, rgba(240,232,234,1) 0%, rgba(240,232,234,1) 1%, rgba(232,213,217,1) 3%, rgba(240,232,234,0.85) 12%, rgba(240,232,234,1) 34%, rgba(245,238,240,0.95) 49%, rgba(240,232,234,1) 62%, rgba(240,232,234,0.85) 82%, rgba(232,213,217,1) 96%, rgba(240,232,234,1) 99%, rgba(240,232,234,1) 100%);
 
 }
 
@@ -111,7 +111,7 @@
     width: clamp(50px, 75%, 350px);
     padding: .5em 0;
     font-weight: 500;
-    border: 2px inset #fff;
+    border: 2px inset #9b3a4a;
     cursor: pointer;
 }
 
@@ -142,7 +142,7 @@
     width: clamp(100px, 90%, 700px);
     margin: 0 auto;
     border-radius: 1em;
-    box-shadow: 1px 1px 3px #0000009b;
+    box-shadow: 1px 1px 3px #6b2d3a3b;
 }
 
 .img__separador {
@@ -748,7 +748,7 @@ main{
     color: var(--titulo-itinerario); 
 }
 .itinerario__name2{
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #c8a0a8;
     padding-top: .7em;
     color: var(--hora-itinerario);
 }
@@ -1081,14 +1081,14 @@ main{
     width: clamp(100px, 90%, 700px);
     margin: 0 auto;
     border-radius: 1em;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 5px 5px rgba(106, 45, 58, 0.2);
 }
 
 .regalos__paragraph {
     font-size: 1rem;
     padding: 2em 1em 0;
     line-height: 1.5;
-    color: #161616;
+    color: #4a1825;
     text-align: center;
 }
 
@@ -1136,7 +1136,7 @@ main{
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(74, 24, 37, 0.85);
     color: white;
     padding: 7em 5em;
     border-radius: 5px;
@@ -1146,7 +1146,7 @@ main{
 .lineRegalos{
     width: 80%;
     height: 1px;
-    background-color: #fff;
+    background-color: #c8a0a8;
     margin: 1em auto;
 }
 
@@ -1296,7 +1296,7 @@ main{
 .playlist__input:focus {
     border-color: var(--color-bordes-temporizador);
     /* Nuevo color de borde al estar seleccionado */
-    background-color: #e9e9e9;
+    background-color: #f9f4f2;
 }
 
 .boton__cta2 {
@@ -1365,61 +1365,11 @@ main{
 
     font-weight: bold;
     font-size: 1.3rem;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #fff;
+    border-top: 1px solid #c8a0a8;
+    border-bottom: 1px solid #c8a0a8;
     margin: .3em auto;
     padding: .5em 0;
 
-}
-
-/* //////////////////////////////// INVITADOS /////////////////////////////////// */
-
-.invitados {
-    text-align: center;
-}
-
-.invitados__contenedor {
-    padding: 1em;
-}
-
-#busqueda {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    max-width: 500px;
-    margin: 0 auto;
-    gap: 1em;
-}
-
-.busqueda__name {
-    font-size: 1.3rem;
-    font-weight: 500;
-}
-
-.busqueda__input {
-    height: 2em;
-    border-radius: .7em;
-    border: none;
-    outline: 1px solid var(--color-titles);
-    padding: 0 0 0 1em;
-    margin: 0;
-}
-
-
-#resultado {
-    margin-top: 20px;
-    display: none;
-    /* Inicialmente oculto */
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 1.5;
-}
-
-.aclaracion {
-    margin: -.3em 0;
-    font-weight: 600;
 }
 
 /* //////////////////////////////// INVITADOS /////////////////////////////////// */
@@ -1533,7 +1483,7 @@ main{
 .input__text:focus {
     border-color: var(--color-bordes-temporizador);
     /* Nuevo color de borde al estar seleccionado */
-    background-color: #e9e9e9;
+    background-color: #f9f4f2;
 }
 
 .alimenticio__container {
@@ -1756,10 +1706,6 @@ input[type="radio"] {
     color: var(--color-letra-web);
     font-size: 1rem;
 }
-
-
-
-
 
 
 .boton-descarga {
